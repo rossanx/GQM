@@ -5,7 +5,7 @@ A paper proposing the GQM architecture was published by me in the "2016 17th Int
 
 The abstract is "This paper describes an architecture for global queue management (GQM). Global refers to the set of all queues in routers present in some network flow path. The main idea of the architecture is the detection of some anomaly somewhere downstream and the propagation of the local decision to a set of upstream routers or switches. The upstream devices are free to act as they wish. GQM is useful to boost some QoS configuration, save network resources, and to provide some mechanism to mitigate network attacks. It's also possible to integrate GQM with SDN, specially with OpenFlow that provides a Controller that can act upon anomaly detection."
 
-This repository will provide the code for the elements implementing the GQM architecture:
+This repository will provide the code for the following elements implementing the GQM architecture:
 
 - Anomaly Detector: It runs in kernel space - it's composed of: 
     -- a modified version of the SFB (Stochastic Fair Blue) linux kernel module
