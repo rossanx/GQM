@@ -12,3 +12,6 @@ This repository will provide the code for the following elements implementing th
     -- some kernel modules 
 - GQM Daemons: They run in user space and implement the DGF (discard greatest first) algorithm proposed in the paper as well.
 - Miscelaneous: scripts, configuration files, flow rules, etc..
+
+
+PLEASE VISIT https://gitlab.com/rossanx/gqm FOR UPDATES.
